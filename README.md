@@ -1,5 +1,7 @@
 # Lightweight-UNet
 
-简单来说就是将UNet的channel数变为原来的1/4。
+这个轻量级UNet的架构实现继承自 [milesial/Pytorch-UNet](https://github.com/milesial/Pytorch-UNet) 的UNet实现。
 
-未完待续。
+我们对UNet的架构进行轻量化，对网络每一层的通道数等做了适当缩减，具体是缩减为原来的```1/4```。
+
+我们的轻量级UNet相比传统UNet训练速度和预测速度都有明显提升。
